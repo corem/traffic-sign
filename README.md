@@ -1,4 +1,4 @@
-# traffic-sign
+# Traffic sign prediction (Keras/TensorFlow)
 ## Dataset
 Download at: https://www.kaggle.com/meowmeowmeowmeowmeow/gtsrb-german-traffic-sign
 
