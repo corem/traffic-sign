@@ -9,7 +9,6 @@ import imutils
 import random
 import cv2
 import os
-import matplotlib.pyplot as plt
 
 # construct the argument parse and parse the arguments
 ap = argparse.ArgumentParser()
