@@ -47,14 +47,17 @@ class TrafficSignNet:
 		model.add(Activation("relu"))
 		model.add(BatchNormalization())
 		model.add(Dropout(0.5))
+
 		# second set of FC => RELU layers
 		model.add(Flatten())
 		model.add(Dense(128))
 		model.add(Activation("relu"))
 		model.add(BatchNormalization())
 		model.add(Dropout(0.5))
+
 		# softmax classifier
 		model.add(Dense(classes))
 		model.add(Activation("softmax"))
+
 		# return the constructed network architecture
 		return model

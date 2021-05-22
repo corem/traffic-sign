@@ -1,0 +1,5 @@
+# Training
+python train.py --dataset data --model output/trafficsignnet.model --plot output/plot.png
+
+# Prediction
+python predict.py --model output/trafficsignnet.model --images data/Test --examples examples
